@@ -28,7 +28,7 @@ no_index:
 provides:
   App::revealup:
     file: lib/App/revealup.pm
-    version: '0.01'
+    version: '0.02'
   App::revealup::cli:
     file: lib/App/revealup/cli.pm
   App::revealup::cli::serve:
@@ -45,5 +45,5 @@ resources:
   bugtracker: https://github.com/yusukebe/App-revealup/issues
   homepage: https://github.com/yusukebe/App-revealup
   repository: git://github.com/yusukebe/App-revealup.git
-version: '0.01'
+version: '0.02'
 x_authority: cpan:YUSUKEBE
