@@ -1,5 +1,9 @@
 Revision history for Perl extension App-revealup
 
+0.03 2014-06-06T08:02:04Z
+
+    - removed Test::Fatal dependency, thanks to sillymoose
+
 0.02 2014-05-25T11:35:55Z
 
     - fixed bugs about themes
