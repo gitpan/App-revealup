@@ -4,7 +4,7 @@
       "Yusuke Wada <yusuke@kamawada.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v1.1.0",
+   "generated_by" : "Minilla/v1.0.0",
    "license" : [
       "perl_5"
    ],
@@ -62,7 +62,7 @@
    "provides" : {
       "App::revealup" : {
          "file" : "lib/App/revealup.pm",
-         "version" : "0.06"
+         "version" : "0.07"
       },
       "App::revealup::cli" : {
          "file" : "lib/App/revealup/cli.pm"
@@ -88,7 +88,7 @@
          "web" : "https://github.com/yusukebe/App-revealup"
       }
    },
-   "version" : "0.06",
+   "version" : "0.07",
    "x_authority" : "cpan:YUSUKEBE",
    "x_contributors" : [
       "David Farrell <davidnmfarrell@gmail.com>"
