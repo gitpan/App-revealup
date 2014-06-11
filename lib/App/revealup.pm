@@ -3,7 +3,7 @@ use 5.008005;
 use strict;
 use warnings;
 
-our $VERSION = "0.04";
+our $VERSION = "0.05";
 
 1;
 __END__
@@ -20,7 +20,7 @@ App::revealup - HTTP Server app for viewing Markdown texts as slides
 
 =head1 DESCRIPTION
 
-App::revealup is a web application module to showing Markdown with reveal.js. Markdown texts will be like a slideshow if you use this revealup command.
+App::revealup is a web application module to showing Markdown with reveal.js. Markdown texts will be like a slide show if you use this revealup command.
 
 =head2 Sample Markdown
 
@@ -43,6 +43,8 @@ App::revealup is a web application module to showing Markdown with reveal.js. Ma
 =over 4
 
 =item serve
+
+=item theme
 
 =back
 

@@ -7,11 +7,14 @@ cpanfile
 lib/App/revealup.pm
 lib/App/revealup/cli.pm
 lib/App/revealup/cli/serve.pm
+lib/App/revealup/cli/theme.pm
+lib/App/revealup/util.pm
 minil.toml
 script/revealup
 share/templates/slide.html.mt
 t/00_compile.t
 t/cli-serve.t
+t/cli-theme.t
 t/cli.t
 t/test.md
 share/revealjs/Gruntfile.js
