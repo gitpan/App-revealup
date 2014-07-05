@@ -62,13 +62,13 @@
    "provides" : {
       "App::revealup" : {
          "file" : "lib/App/revealup.pm",
-         "version" : "0.09"
+         "version" : "0.10"
       },
       "App::revealup::cli" : {
          "file" : "lib/App/revealup/cli.pm"
       },
-      "App::revealup::cli::serve" : {
-         "file" : "lib/App/revealup/cli/serve.pm"
+      "App::revealup::cli::server" : {
+         "file" : "lib/App/revealup/cli/server.pm"
       },
       "App::revealup::cli::theme" : {
          "file" : "lib/App/revealup/cli/theme.pm"
@@ -88,7 +88,7 @@
          "web" : "https://github.com/yusukebe/App-revealup"
       }
    },
-   "version" : "0.09",
+   "version" : "0.10",
    "x_authority" : "cpan:YUSUKEBE",
    "x_contributors" : [
       "David Farrell <davidnmfarrell@gmail.com>"
