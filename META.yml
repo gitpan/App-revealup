@@ -3,7 +3,11 @@ abstract: 'HTTP Server app for viewing Markdown texts as slides'
 author:
   - 'Yusuke Wada <yusuke@kamawada.com>'
 build_requires:
+  Capture::Tiny: 0
+  FindBin: 0
+  LWP::UserAgent: 0
   Test::More: 0.98
+  Test::TCP: 0
 configure_requires:
   CPAN::Meta: 0
   CPAN::Meta::Prereqs: 0
@@ -28,7 +32,7 @@ no_index:
 provides:
   App::revealup:
     file: lib/App/revealup.pm
-    version: 0.11
+    version: 0.12
   App::revealup::cli:
     file: lib/App/revealup/cli.pm
   App::revealup::cli::server:
@@ -49,7 +53,7 @@ resources:
   bugtracker: https://github.com/yusukebe/App-revealup/issues
   homepage: https://github.com/yusukebe/App-revealup
   repository: git://github.com/yusukebe/App-revealup.git
-version: 0.11
+version: 0.12
 x_authority: cpan:YUSUKEBE
 x_contributors:
   - 'David Farrell <davidnmfarrell@gmail.com>'

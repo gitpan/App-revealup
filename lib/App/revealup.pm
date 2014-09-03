@@ -3,7 +3,7 @@ use 5.008005;
 use strict;
 use warnings;
 
-our $VERSION = "0.11";
+our $VERSION = "0.12";
 
 1;
 __END__
@@ -37,6 +37,14 @@ App::revealup is a web application module to showing Markdown with reveal.js. Ma
     ___
     
     ## This is a third title
+
+    ---
+
+    ## This is a forth title
+    <!-- .slide: data-background="#f70000" data-transition="page" -->
+    
+    You can add slide attributes like above.
+
 
 =head1 COMMANDS
 
