@@ -1,5 +1,10 @@
 Revision history for Perl extension App-revealup
 
+0.13 2014-09-16T03:39:04Z
+
+    - fixed tests
+    - brush up POD
+
 0.12 2014-09-03T20:55:45Z
 
     - write description about attributes in Markdown
