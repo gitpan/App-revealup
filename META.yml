@@ -3,21 +3,19 @@ abstract: 'HTTP Server app for viewing Markdown texts as slides'
 author:
   - 'Yusuke Wada <yusuke@kamawada.com>'
 build_requires:
-  Capture::Tiny: 0
-  FindBin: 0
-  LWP::UserAgent: 0
-  Test::More: 0.98
-  Test::TCP: 0
+  Capture::Tiny: '0'
+  FindBin: '0'
+  LWP::UserAgent: '0'
+  Test::More: '0.98'
+  Test::TCP: '2.06'
 configure_requires:
-  CPAN::Meta: 0
-  CPAN::Meta::Prereqs: 0
-  Module::Build: 0.38
+  Module::Build: '0.38'
 dynamic_config: 0
-generated_by: 'Minilla/v1.1.0, CPAN::Meta::Converter version 2.132830'
+generated_by: 'Minilla/v2.2.0, CPAN::Meta::Converter version 2.142690'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: App-revealup
 no_index:
   directory:
@@ -32,7 +30,7 @@ no_index:
 provides:
   App::revealup:
     file: lib/App/revealup.pm
-    version: 0.13
+    version: '0.14'
   App::revealup::cli:
     file: lib/App/revealup/cli.pm
   App::revealup::cli::server:
@@ -42,18 +40,19 @@ provides:
   App::revealup::util:
     file: lib/App/revealup/util.pm
 requires:
-  File::ShareDir: 0
-  Getopt::Long: 0
-  Path::Tiny: 0
-  Plack: 0
-  Text::MicroTemplate: 0
-  Try::Tiny: 0
-  perl: 5.008005
+  File::ShareDir: '0'
+  Getopt::Long: '0'
+  MIME::Types: '0'
+  Path::Tiny: '0'
+  Plack: '0'
+  Text::MicroTemplate: '0'
+  Try::Tiny: '0.060'
+  perl: '5.008005'
 resources:
   bugtracker: https://github.com/yusukebe/App-revealup/issues
   homepage: https://github.com/yusukebe/App-revealup
   repository: git://github.com/yusukebe/App-revealup.git
-version: 0.13
+version: '0.14'
 x_authority: cpan:YUSUKEBE
 x_contributors:
   - 'David Farrell <davidnmfarrell@gmail.com>'

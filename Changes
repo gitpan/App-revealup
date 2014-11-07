@@ -1,5 +1,10 @@
 Revision history for Perl extension App-revealup
 
+0.14 2014-11-07T16:32:35Z
+
+    - update required modules
+    - output MIME-Types of static images and others
+
 0.13 2014-09-16T03:39:04Z
 
     - fixed tests

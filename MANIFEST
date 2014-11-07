@@ -16,6 +16,7 @@ t/00_compile.t
 t/cli-server.t
 t/cli-theme.t
 t/cli.t
+t/onion.png
 t/test.md
 share/revealjs/Gruntfile.js
 share/revealjs/LICENSE
