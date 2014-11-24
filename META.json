@@ -4,7 +4,7 @@
       "Yusuke Wada <yusuke@kamawada.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v2.2.0",
+   "generated_by" : "Minilla/v2.2.1",
    "license" : [
       "perl_5"
    ],
@@ -65,16 +65,28 @@
    "provides" : {
       "App::revealup" : {
          "file" : "lib/App/revealup.pm",
-         "version" : "0.14"
+         "version" : "0.15"
+      },
+      "App::revealup::base" : {
+         "file" : "lib/App/revealup/base.pm"
+      },
+      "App::revealup::builder" : {
+         "file" : "lib/App/revealup/builder.pm"
       },
       "App::revealup::cli" : {
          "file" : "lib/App/revealup/cli.pm"
       },
-      "App::revealup::cli::server" : {
-         "file" : "lib/App/revealup/cli/server.pm"
+      "App::revealup::cli::export" : {
+         "file" : "lib/App/revealup/cli/export.pm"
       },
-      "App::revealup::cli::theme" : {
-         "file" : "lib/App/revealup/cli/theme.pm"
+      "App::revealup::cli::export::html" : {
+         "file" : "lib/App/revealup/cli/export/html.pm"
+      },
+      "App::revealup::cli::export::theme" : {
+         "file" : "lib/App/revealup/cli/export/theme.pm"
+      },
+      "App::revealup::cli::serve" : {
+         "file" : "lib/App/revealup/cli/serve.pm"
       },
       "App::revealup::util" : {
          "file" : "lib/App/revealup/util.pm"
@@ -91,9 +103,9 @@
          "web" : "https://github.com/yusukebe/App-revealup"
       }
    },
-   "version" : "0.14",
+   "version" : "0.15",
    "x_authority" : "cpan:YUSUKEBE",
    "x_contributors" : [
-      "David Farrell <davidnmfarrell@gmail.com>"
+      "sillymoose <davidnmfarrell@gmail.com>"
    ]
 }

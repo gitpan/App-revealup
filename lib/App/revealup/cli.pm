@@ -1,14 +1,11 @@
 package App::revealup::cli;
-use strict;
-use warnings;
-use Try::Tiny;
-use App::revealup::cli::server;
+use App::revealup::base;
 
-sub new {
-    my $class = shift;
-    my $self = bless {}, $class;
-    return $self;
-}
+# For compatibility.
+has 'command_map' => {
+    server => 'serve',
+    theme => 'export',
+};
 
 sub run {
     my ($self, @args) = @_;
@@ -19,12 +16,14 @@ sub run {
     my $command = shift @commands;
 
     if($command) {
+        my $new_command = $self->command_map->{$command};
+        $command = $new_command if $new_command;
         my $klass = sprintf("App::revealup::cli::%s", lc($command));
-        $klass = 'server' if $klass eq 'serve';
         no warnings 'ambiguous';
         if(eval "require $klass;1;"){
-            $klass->run(@commands);
-            exit;
+            my $instance = $klass->new();
+            $instance->run(@commands);
+            return;
         }
     }
     system "perldoc App::revealup";
