@@ -1,5 +1,5 @@
 {
-   "abstract" : "HTTP Server app for viewing Markdown texts as slides",
+   "abstract" : "HTTP Server application for viewing Markdown formatted text as slides",
    "author" : [
       "Yusuke Wada <yusuke@kamawada.com>"
    ],
@@ -67,7 +67,7 @@
    "provides" : {
       "App::revealup" : {
          "file" : "lib/App/revealup.pm",
-         "version" : "0.16"
+         "version" : "0.17"
       },
       "App::revealup::base" : {
          "file" : "lib/App/revealup/base.pm"
@@ -105,7 +105,7 @@
          "web" : "https://github.com/yusukebe/App-revealup"
       }
    },
-   "version" : "0.16",
+   "version" : "0.17",
    "x_authority" : "cpan:YUSUKEBE",
    "x_contributors" : [
       "sillymoose <davidnmfarrell@gmail.com>",
