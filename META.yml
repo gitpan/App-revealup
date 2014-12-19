@@ -6,12 +6,13 @@ build_requires:
   Capture::Tiny: '0'
   FindBin: '0'
   LWP::UserAgent: '0'
+  Test::File::Contents: '0.20'
   Test::More: '0.98'
   Test::TCP: '2.06'
 configure_requires:
   Module::Build: '0.38'
 dynamic_config: 0
-generated_by: 'Minilla/v2.2.1, CPAN::Meta::Converter version 2.141170'
+generated_by: 'Minilla/v2.3.0, CPAN::Meta::Converter version 2.142690'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -30,7 +31,7 @@ no_index:
 provides:
   App::revealup:
     file: lib/App/revealup.pm
-    version: '0.15'
+    version: '0.16'
   App::revealup::base:
     file: lib/App/revealup/base.pm
   App::revealup::builder:
@@ -49,6 +50,7 @@ provides:
     file: lib/App/revealup/util.pm
 requires:
   File::ShareDir: '0'
+  File::chdir: '0'
   Getopt::Long: '0'
   MIME::Types: '0'
   Path::Tiny: '0'
@@ -60,7 +62,8 @@ resources:
   bugtracker: https://github.com/yusukebe/App-revealup/issues
   homepage: https://github.com/yusukebe/App-revealup
   repository: git://github.com/yusukebe/App-revealup.git
-version: '0.15'
+version: '0.16'
 x_authority: cpan:YUSUKEBE
 x_contributors:
   - 'sillymoose <davidnmfarrell@gmail.com>'
+  - 'A. Sinan Unur <nanis@cpan.org>'

@@ -1,5 +1,10 @@
 Revision history for Perl extension App-revealup
 
+0.16 2014-12-19T06:24:04Z
+
+    - fixed unwanted EOL conversion on Windows
+    - thank you for pull-request @nanis
+
 0.15 2014-11-24T06:40:24Z
 
     - make new sub commands!

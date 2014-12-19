@@ -24,6 +24,7 @@ t/cli-theme.t
 t/cli.t
 t/lib/Test.pm
 t/onion.png
+t/test.bmp
 t/test.md
 share/revealjs/Gruntfile.js
 share/revealjs/LICENSE
