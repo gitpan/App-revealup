@@ -31,7 +31,7 @@ no_index:
 provides:
   App::revealup:
     file: lib/App/revealup.pm
-    version: '0.18'
+    version: '0.19'
   App::revealup::base:
     file: lib/App/revealup/base.pm
   App::revealup::builder:
@@ -62,7 +62,7 @@ resources:
   bugtracker: https://github.com/yusukebe/App-revealup/issues
   homepage: https://github.com/yusukebe/App-revealup
   repository: git://github.com/yusukebe/App-revealup.git
-version: '0.18'
+version: '0.19'
 x_authority: cpan:YUSUKEBE
 x_contributors:
   - 'A. Sinan Unur <nanis@cpan.org>'
