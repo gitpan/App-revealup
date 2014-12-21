@@ -4,7 +4,7 @@
       "Yusuke Wada <yusuke@kamawada.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v2.3.0",
+   "generated_by" : "Minilla/v2.2.1",
    "license" : [
       "perl_5"
    ],
@@ -67,7 +67,7 @@
    "provides" : {
       "App::revealup" : {
          "file" : "lib/App/revealup.pm",
-         "version" : "0.17"
+         "version" : "0.18"
       },
       "App::revealup::base" : {
          "file" : "lib/App/revealup/base.pm"
@@ -105,10 +105,10 @@
          "web" : "https://github.com/yusukebe/App-revealup"
       }
    },
-   "version" : "0.17",
+   "version" : "0.18",
    "x_authority" : "cpan:YUSUKEBE",
    "x_contributors" : [
-      "sillymoose <davidnmfarrell@gmail.com>",
-      "A. Sinan Unur <nanis@cpan.org>"
+      "A. Sinan Unur <nanis@cpan.org>",
+      "sillymoose <davidnmfarrell@gmail.com>"
    ]
 }
